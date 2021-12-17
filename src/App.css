@@ -1,0 +1,217 @@
+body {
+  box-sizing: border-box;
+  background-color: #131C25;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color:black;
+  padding: 20px 0;
+}
+
+.title {
+  text-decoration: none;
+  color: red;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.imgMovies {
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.imgMoviesDetails {
+  margin-top: 15px;
+  width: 450px;
+}
+
+.movieList-contain {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  margin-bottom: 140px;
+}
+
+.movieCard {
+  align-items: center;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 30px;
+}
+
+.storyline {
+  margin: 0 10px;
+  height: 170px;
+}
+
+.rating-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.details {
+  margin: 20px 0;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.details:hover {
+  opacity: 0.7;
+  color: red;
+}
+
+.addCard-contain {
+  display: flex;
+  justify-content: center;
+}
+
+.addCard {
+  background-color: yellow;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.addCard:hover {
+  background-color: rgb(207, 207, 6);
+  transition: 0.3s;
+}
+
+.buttonsDetails {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.edit {
+  margin: 0 10px;
+  background-color: yellow;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.edit:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+.back {
+  margin: 0 10px;
+  background-color: blue;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back:hover {
+  opacity: 0.7;
+}
+
+.delete {
+  margin: 0 10px;
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.delete:hover {
+  opacity: 0.7;
+}
+
+.pageEditMovie-contain {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+.pageEditMovie {
+  display: flex;
+  color: black; 
+  background-color: rgba(145, 143, 143, 0.5);
+  padding: 20px 40px;
+}
+
+.formEditMovie {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.buttonEdit-contain {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonEdit {
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttonEdit:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.newMovie {
+  display: flex;
+  justify-content: center;
+  margin: 195px;
+}
+
+.container-footer {
+  /* border: 1px solid red; */
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.container-logo {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 10px;
+}
+
+.logo {
+  margin: 0 10px;
+}
