@@ -27,3 +27,5 @@ O projeto foi realizado com conhecimentos em
 - <a href="https://www.linkedin.com/in/douglasdrozda/">Linkedin</a>
 - <a href="https://api.whatsapp.com/send?phone=5513997715719">Whatsapp</a>
 - <a href="mailto:db.drozda@gmail.com">Email</a>
+
+[Clique aqui](https://project-movie-card-library-crud.netlify.app/) para visitar o site.
